@@ -20,5 +20,6 @@ public class ServidorTarefas {
 			DistribuirTarefas distribuirTarefas = new DistribuirTarefas(socket);
 			threadPool.execute(distribuirTarefas);
 		}
+		
 	}
 }
