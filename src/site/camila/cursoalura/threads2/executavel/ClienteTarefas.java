@@ -57,8 +57,8 @@ public class ClienteTarefas {
 			}
 		});
 		
-		threadEnviaComando.start();
 		threadRecebeResposta.start();
+		threadEnviaComando.start();
 		
 		threadEnviaComando.join();
 		
